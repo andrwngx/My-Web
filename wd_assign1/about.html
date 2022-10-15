@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Some Information About Nguyen Vu Duy Minh">
+    <meta name="author" content="Nguyen Vu Duy Minh">
+    <title>Andrew's Assignment 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500" rel="stylesheet">
+    <link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:1025px)">
+    <link href="style/mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-transparent is-fixed-top">
+        <div class="navbar-brand"><a href="home.html" class="navbar-item navbar-logo"><img src="images/andrw-logo.png" alt="Logo" id="my-logo"></a>
+            <div data-target="navbarExampleTransparentExample" class="navbar-burger"><span></span><span></span><span></span></div>
+        </div>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end"><a href="home.html" class="navbar-item has-text-dark">Home</a><a href="about.html" class="navbar-item has-text-dark">About</a><a href="animations.html" class="navbar-item has-text-dark">Animations</a>
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control"><a href="timetable.html" class="bd-tw-button button">My Timetable<br></a></p>
+                        <p class="control"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main>
+        <!-- Demographic information about me -->
+        <article class="columns is-centered">
+            <div class="column is-6 p-3">
+                <div class="box has-text-centered is-shadowless">
+                    <figure class="image is-responsive is-fit"></figure>
+                    <div class="tile mt-5 pt-5 is-child pink card-bio">
+                        <h2 id="about-me-title" class="about"><br>About Me<br></h2>
+                        <hr class="hr mx-auto has-text-centered">
+                        <div class="content has-text-left has-text-grey description">
+                            <p id="about-me-content">Hey! My name is Nguyen Vu Duy Minh, but you can call me Andrew. I am a 18-year-old freshman at Swinburne University of Technology, majoring in Information and Communication Technology, minoring in Software Technology.<br><br>As you can tell from my website, I am a minimalist who like to keep things simple. Hope you will enjoy your time here!<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- A description of my hometown -->
+        <article class="container">
+            <h2 id="my-hometown-title" class="feature-title">My Hometown<br></h2>
+            <hr class="hr mx-auto has-text-centered">
+            <p id="my-hometown-subtitle">I come from Hanoi, the capital city of Vietnam!<br><br></p>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-4">
+                    <div class="box is-shadowless has-border-grey has-background-white-bis"><span class="tag is-dark is-medium">Friendly!</span>
+                        <p id="hometown-friendly">People in Vietnam is known to be friendly, and I can proudly say that people in Hanoi is (probably) the friendliest in my country!</p>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="box is-shadowless has-border-grey has-background-white-bis"><span class="tag is-dark is-medium">Foods and Drinks</span>
+                        <p id="hometown-foods">Foods in Hanoi ars simply amazing. Here you can find and eat the famous Pho and Banh Mi. You can also find a variety of bún (vermicelli) and miến (thinner vermicelli). Drinks here are great as well, especially coffee. One sip of that and you will be awake for hours :)</p>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="box is-shadowless has-border-grey has-background-white-bis"><span class="tag is-dark is-medium">Tourist Attractions</span>
+                        <p id="hometown-tourism">From historical sites to the old streets, Hanoi have always been an enjoyable place to visit.&nbsp;<br>You can consider visit these tourist attractions:<br></p>
+                            <ul>
+                                <li class="tourist-list">Hoan Kiem Lake</li>
+                                <li class="tourist-list">Thang Long Imperial Citadel</li>
+                                <li class="tourist-list">Temple of Literature</li>
+                                <li class="tourist-list">The Old Quarter</li>
+                                <li class="tourist-list">And many more!</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- A list of my favourite books -->
+        <section class="section is-info is-block is-relative is-medium">
+            <div class="container">
+                <header class="has-text-centered">
+                    <h1 id="my-books" class="section-feed-1 section-feed-1-title">My Favorite Books</h1>
+                </header>
+                <hr class="hr mx-auto has-text-centered">
+                <div class="columns is-centered is-variable is-4 mt-5 is-multiline">
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Harry Potter Series</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="books-harry">The legendary Harry Potter series is classic. It has a complex plot with good story-telling, enough to make anyone immersed in the wizards' world.<br>My Favorite Harry Potter Books:</p>
+                                            <ol>
+                                                <li class="books-list">Philosopher's Stone</li>
+                                                <li class="books-list">Prisoner of Azkaban</li>
+                                                <li class="books-list">Order of the Phoenix</li>
+                                            </ol><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-image"></div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">How to Win Friends and Influence People</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="books-self-help">A popular self-help book. This book has helped me a lot in my daily life, it taught me many communication skills and changed my whole social life.</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Your Name</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="books-your-name">The first light novel I have ever read. The book was written by Shinkai Makoto - a Japanese author. The plot was amazing,&nbsp; the story was funny and emotional at the same time. It is a must-read book!</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- A list of my favourite music genres and artists -->
+        <section class="section is-info is-block is-relative is-medium">
+            <div class="container">
+                <header class="has-text-centered">
+                    <h1 id="my-music" class="section-feed-1 section-feed-1-title">My Favorite Music Genres &amp; Artists</h1>
+                </header>
+                <hr class="hr mx-auto has-text-centered">
+                <div class="columns is-centered is-variable is-4 mt-5 is-multiline">
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Pop R&amp;B</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="music-pop">I listen to pop R&amp;B all day. You can basically listen to this genre anytime because it's full of emotions, from loved, happy to extremely sad.<br>My favorite pop R&amp;B artists are Jeremy Zucker, Justin Bieber, ZAYN, etc.</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Ballad</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="music-ballad">One word: Romantic. I often listen to Vietnamese ballads, just because it's so emotional, soft and relaxing to my ears.<br>My favorite ballad artists are Soobin Hoang Son, Hoang Dung, Thinh Suy, etc.</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Hiphop/Rap</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="music-hiphop">Hiphop is such a nice genre, although some people may find it overwhelming. I always listen to hiphop music, rap in particular, when I'm at the gym or doing household chores. It just has some energy boosting effect on me :)<br>My favorite hiphop/rap artists are DaBaby, Lil Nas X, Offset, etc.</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- A list of my favourite games -->
+        <section class="section is-info is-block is-relative is-medium">
+            <div class="container">
+                <header class="has-text-centered">
+                    <h1 id="my-games" class="section-feed-1 section-feed-1-title">My Favorite Games</h1>
+                </header>
+                <hr class="hr mx-auto has-text-centered">
+                <div class="columns is-centered is-variable is-4 mt-5 is-multiline">
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Valorant</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="games-valorant">My perfect First-Person Shooter game! It is a combination of my two favorite games: Counter Strike: Global Offensive and Overwatch. The gameplay, the graphics, the voicelines,... everything is impressive in this game.</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Trolley Problem, Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="games-trolley">An amazing darkly comedic, psychological game. It ended up being one of my favorite games just because of how well-made that game was. The game is weirdly funny, a little bit "dark" but overall it is a brilliant game.</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title">Minecraft</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p id="games-minecraft">Minecraft is my childhood game. I have built a lot of buildings, worlds in its creative mode and I always feel satisfied after finishing each of the works. The in-game music was awesome, sometimes I opened the game just to listen to the soundtrack!</p><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Aside -->
+    <aside>
+        <!-- A great achievement in my life (so far) -->
+        <section class="section">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-4">
+                        <div class="icon-subtitle"><i class="im im-icon-Calendar-4"></i></div>
+                        <div class="title quick-feature is-handwritten text-bold">
+                            <h2 id="achievement-title" class="section-content-left section-content-left-title">A Great Achievement Of Mine (so far)</h2>
+                        </div><span id="achievement-content" class="body-text">I got a third prize (Powerpoint 2016) in the MOSWC 2020&nbsp;(Microsoft Office Specialist World Championship). That was my biggest achievement up till now and I always feel proud about it!</span>
+                        <div class="buttons mt-5"></div>
+                    </div>
+                    <div class="column is-offset-1 is-6 has-text-centered"><img src="images/third.jpg" alt="" class="featured-svg is-semi-rounded"></div>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <footer>
+        <section class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="columns is-desktop">
+                        <div class="column is-12 is-7-desktop has-text-left">
+                            <h1 id="contact-title" class="title">Contact</h1>
+                            <p id="contact-content">You can contact me via Facebook anytime! My time zone is GMT+7 (Hanoi) and I can answer whenever I am not sleeping. If you want to watch my daily stories, be sure to follow my Instagram! Also I haven't started any project yet, but there is a Github link just in case :)</p>
+                            <div class="social-media mt-4 mb-4"><a href="https://facebook.com/hiimdminh" target="_blank" data-aos="fade-up" class="button is-light mr-1 is-large"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="36px" height="36px" data-aos-delay="0.5" id="in07rd" data-aos="fade-up">
+                                            <path d="M5 3h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2m13 2h-2.5C13.57 5 12 6.57 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9c0-.55.45-1 1-1h2V5z"></path>
+                                        </svg></span></a><a href="https://instagram.com/andrwngx" target="_blank" data-aos="fade-up" class="button is-light mr-1 is-large"> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="36px" height="36px" data-aos="fade-up" data-aos-delay="0.5" id="ii79fk">
+                                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2m-.2 2C5.61 4 4 5.61 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8c1.99 0 3.6-1.61 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5M12 7c2.76 0 5 2.24 5 5s-2.24 5-5 5-5-2.24-5-5 2.24-5 5-5m0 2c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path>
+                                        </svg></span></a><a href="https://github.com/andrwngx" target="_blank" data-aos="fade-up" class="button is-light mr-1 is-large"> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" id="ibhsuf">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12c0-5.52-4.48-10-10-10z"></path>
+                                        </svg></span></a></div>
+                        </div>
+                        <div class="column is-12 is-5-desktop has-text-left">
+                            <form name="contact-form" class="p-3" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php">
+                                <div class="field"><label class="label">Name</label>
+                                    <div class="control"><input type="text" name="Name" required="" class="input is-medium"></div>
+                                </div>
+                                <div class="field"><label class="label">Email</label>
+                                    <div class="control"><input type="text" name="Email" required="" class="input is-medium"></div>
+                                </div>
+                                <div class="field"><label class="label">Message</label>
+                                    <div class="control"><textarea name="Message" required="" class="textarea is-medium"></textarea></div>
+                                </div>
+                                <div class="control submit-div"><button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium" id="button-send-message">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+</body>
+
+</html>

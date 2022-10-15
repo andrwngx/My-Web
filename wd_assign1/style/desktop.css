@@ -1,0 +1,603 @@
+html,
+body {
+	font-family: Inter, sans-serif;
+	font-size: 16px;
+}
+
+.is-semi-rounded {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.is-fit {
+	object-fit: contain;
+}
+
+.hr {
+	animation-duration: 1s;
+	animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+	animation-fill-mode: both;
+	animation-name: fillUp;
+	animation-delay: 300ms;
+}
+
+.university {
+	animation-duration: 1s;
+	animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+	animation-fill-mode: both;
+	font-family: Inter;
+	color: rgb(113, 113, 113);
+	font-size: 18px;
+	animation-name: slideUp;
+	animation-delay: 200ms;
+}
+
+.description {
+	animation-duration: 1s;
+	animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+	animation-fill-mode: both;
+	animation-name: slideUp;
+	animation-delay: 400ms;
+}
+
+.has-border-grey {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(181, 181, 181);
+	border-right-color: rgb(181, 181, 181);
+	border-bottom-color: rgb(181, 181, 181);
+	border-left-color: rgb(181, 181, 181);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+}
+
+.hr {
+	background-color: rgb(255, 71, 15);
+	border-top-width: initial;
+	border-right-width: initial;
+	border-bottom-width: initial;
+	border-left-width: initial;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: initial;
+	border-right-color: initial;
+	border-bottom-color: initial;
+	border-left-color: initial;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	content: "";
+	height: 2px;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	transform-origin: left center;
+	width: 4rem;
+}
+
+.name {
+	animation-name: slideDown;
+	animation-delay: 100ms;
+	font-family: Inter;
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+.button {
+	animation-duration: 500ms;
+	animation-name: slideUp;
+	animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+}
+
+.buttons .button:nth-child(1) {
+	animation-delay: 800ms;
+}
+
+.buttons .button:nth-child(2) {
+	animation-delay: 900ms;
+}
+
+.buttons .button:nth-child(3) {
+	animation-delay: 1s;
+}
+
+.buttons .button:nth-child(4) {
+	animation-delay: 1.1s;
+}
+
+#home-title {
+	font-family: Inter, sans-serif;
+}
+
+#home-university {
+	font-family: Inter, sans-serif;
+}
+
+#about-me-content {
+	font-family: Inter, sans-serif;
+	font-size: 21px;
+}
+
+.feature-title {
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	font-family: Inter;
+}
+
+.tag.is-dark.is-medium {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+	font-family: Inter;
+	font-weight: 600;
+}
+
+.name:active {
+	font-weight: 100;
+}
+
+#about-me-title {
+	font-family: Inter, sans-serif;
+}
+
+.gjs-selected {
+	font-weight: 100 !important;
+}
+
+.about {
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.navbar-item.has-text-dark {
+	font-family: Georgia, serif;
+}
+
+.bd-tw-button.button {
+	font-family: Georgia, serif;
+}
+
+#my-hometown-subtitle {
+	font-family: Inter, sans-serif;
+	font-size: 21px;
+	text-align: center;
+}
+
+.contact-form-title {
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+.contact-form-subtitle {
+	font-size: 18px;
+	color: rgb(116, 116, 116);
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+}
+
+.form.custom-contact-form {
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+
+#contact-content {
+	font-weight: 200;
+	font-family: Inter;
+}
+
+.title {
+	font-family: Inter;
+	font-weight: 900;
+}
+
+.hr.mx-auto.has-text-centered {
+	background-color: rgb(136, 0, 242);
+}
+
+#hometown-tourism {
+	font-weight: 300;
+	font-family: Inter;
+}
+
+#hometown-friendly {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#hometown-foods {
+	font-weight: 300;
+	font-family: Inter;
+}
+
+.section-feed-1.section-feed-1-title {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+#books-harry {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#books-self-help {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#books-your-name {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+.section-content-left.section-content-left-title {
+	font-size: 36px;
+	font-weight: 900;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font-family: Inter;
+}
+
+.feature-box-card-section.feature-box-card-section-title {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	font-weight: 600;
+}
+
+.feature-box-card-section.feature-box-card-section-subtitle {
+	color: rgb(116, 116, 116);
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+.feature-section-content-title {
+	font-size: 23px;
+	font-weight: 600;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+.testimonial-1.testimonial-section-1-title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+.fw-bold {
+	font-weight: 700;
+}
+
+.is-block.text-grey {
+	color: rgb(116, 116, 116);
+}
+
+.title.name {
+	font-size: 23px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+.testimonials-1 {
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+.rounded-card {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.gallery-section.gallery-title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+}
+
+.gallery-section.gallery-subtitle {
+	text-align: center;
+	font-size: 18px;
+	color: rgb(116, 116, 116);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+}
+
+.section-inner {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer.footer-light {
+	background-color: rgb(245, 245, 245);
+}
+
+.body-text {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+.button.is-link.is-fullwidth.has-text-weight-medium.is-medium {
+	font-family: Inter;
+	font-weight: 900;
+}
+
+#button-send-message {
+	background-color: white;
+	color: #8800f2;
+	border: 2px solid #8800f2;
+}
+
+#button-send-message:hover {
+	background-color: #8800f2;
+  	color: white;
+}
+
+.label {
+	font-family: Inter;
+	font-weight: 900;
+}
+
+#music-pop {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#music-ballad {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#music-hiphop {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#games-valorant {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#games-trolley {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#games-minecraft {
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#time-table {
+	width: 100%;
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	color: #000000;
+}
+
+.time-table-header {
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	padding: 3px;
+	font-family: Inter;
+	font-weight: 900;
+}
+
+.time-table-data {
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	padding: 3px;
+	font-family: Inter;
+	font-weight: 300;
+}
+
+#time-table-head {
+	background-color: #ba53ea;
+}
+
+.time-table-div {
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 70px;
+	overflow-x:auto;
+}
+
+.time-table-day {
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	padding: 3px;
+	font-family: Inter;
+	font-weight: 900;
+	text-align: left;
+}
+
+
+#time-table-title {
+	font-family: Inter;
+	font-weight:900;
+	font-size: 25px;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+.books-list {
+	font-family: Inter;
+}
+
+.tourist-list {
+	font-family: Inter;
+}
+
+#animation-content-title {
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+
+.animation-implementation {
+	font-family: Inter;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+
+#code-slideDown {
+	margin-left: 60px;
+	margin-left: 60px;
+	max-width: 50%;
+	height: auto;
+}
+
+#code-slideUp {
+	margin-left: 60px;
+	margin-left: 60px;
+	max-width: 50%;
+	height: auto;
+}
+
+#code-fillUp {
+	margin-left: 60px;
+	margin-left: 60px;
+	max-width: 50%;
+  	height: auto;
+}
+
+.position-sticky {
+    position: relative;
+    height: auto;
+}
+
+#left {
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+.animation-list-content {
+	font-family: Inter;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+
+/*animations*/
+@keyframes slideDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@keyframes slideUp {
+	0% {
+		opacity: 0;
+		transform: translateY(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@keyframes fillUp {
+	0% {
+		transform: scaleX(0);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
+}

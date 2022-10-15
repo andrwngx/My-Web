@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nguyen Vu Duy Minh's Homepage">
+    <meta name="author" content="Nguyen Vu Duy Minh">
+    <title>Andrew's Assignment 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500" rel="stylesheet">
+    <link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:1025px)">
+    <link href="style/mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar is-transparent is-fixed-top">
+        <div class="navbar-brand"><a href="home.html" class="navbar-item navbar-logo"><img src="images/andrw-logo.png" alt="Logo" id="my-logo"></a>
+            <div data-target="navbarExampleTransparentExample" class="navbar-burger"><span></span><span></span><span></span></div>
+        </div>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end"><a href="home.html" class="navbar-item has-text-dark">Home</a><a href="about.html" class="navbar-item has-text-dark">About</a><a href="animations.html" class="navbar-item has-text-dark">Animations</a>
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control"><a href="timetable.html" class="bd-tw-button button">My Timetable<br></a></p>
+                        <p class="control"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="columns is-centered">
+        <div class="column is-6 p-3">
+            <div class="box has-text-centered is-shadowless">
+                <figure class="image is-responsive is-fit"></figure>
+                <div class="tile mt-5 pt-5 is-child pink card-bio">
+                    <p><br></p><img src="images/portrait.JPG" alt="My Portrait Picture" class="is-semi-rounded">
+                    <h2 id="home-title" class="name">Hi, I'm Nguyen Vu Duy Minh, but you can call me Andrew</h2>
+                    <p id="home-university" class="university">Freshman - Swinburne University of Technology<br>ICT Major - Software Technology<br></p>
+                    <hr class="hr mx-auto has-text-centered">
+                    <div class="buttons is-centered mt-2"><a href="https://facebook.com/hiimdminh"></a><a href="https://instagram.com/andrwngx"></a><a href="https://github.com/andrwngx"></a>
+                        <div class="social-media mt-4 mb-4"><a href="https://facebook.com/hiimdminh" target="_blank" data-aos="fade-up" class="button is-light mr-1 is-large"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="36px" height="36px" data-aos-delay="0.5" data-aos="fade-up">
+                                        <path d="M5 3h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2m13 2h-2.5C13.57 5 12 6.57 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9c0-.55.45-1 1-1h2V5z"></path>
+                                    </svg></span></a><a href="https://instagram.com/andrwngx" target="_blank" data-aos="fade-up" class="button is-light mr-1 is-large"> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="36px" height="36px" data-aos="fade-up" data-aos-delay="0.5">
+                                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2m-.2 2C5.61 4 4 5.61 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8c1.99 0 3.6-1.61 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5M12 7c2.76 0 5 2.24 5 5s-2.24 5-5 5-5-2.24-5-5 2.24-5 5-5m0 2c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path>
+                                    </svg></span></a><a href="https://github.com/andrwngx" target="_blank" data-aos="fade-up" class="button is-light mr-1 is-large"> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12c0-5.52-4.48-10-10-10z"></path>
+                                    </svg></span></a></div>
+                    </div>
+                    <div class="content has-text-left has-text-grey description"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

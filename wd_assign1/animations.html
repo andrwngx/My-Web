@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nguyen Vu Duy Minh's Animations">
+    <meta name="author" content="Nguyen Vu Duy Minh">
+    <title>Andrew's Assignment 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500" rel="stylesheet">
+    <link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:1025px)">
+    <link href="style/mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-transparent is-fixed-top">
+        <div class="navbar-brand"><a href="home.html" class="navbar-item navbar-logo"><img src="images/andrw-logo.png" alt="Logo" id="my-logo"></a>
+            <div data-target="navbarExampleTransparentExample" class="navbar-burger"><span></span><span></span><span></span></div>
+        </div>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end"><a href="home.html" class="navbar-item has-text-dark">Home</a><a href="about.html" class="navbar-item has-text-dark">About</a><a href="animations.html" class="navbar-item has-text-dark">Animations</a>
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control"><a href="timetable.html" class="bd-tw-button button">My Timetable<br></a></p>
+                        <p class="control"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Animations I Used -->
+    <div class="columns is-centered">
+        <div class="column is-6 p-3">
+            <div class="box has-text-centered is-shadowless">
+                <figure class="image is-responsive is-fit"></figure>
+                <div class="tile mt-5 pt-5 is-child pink card-bio">
+                    <h2 id="animation-title" class="name">Animations That I Used In These Webpages</h2>
+                    <div class="content has-text-left has-text-grey description"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p id="animation-content-title">Here are two animations that I used in these webpages:</p>
+    <p class="animation-implementation">
+        <ol class="animation-list">
+            <li class="animation-list-content">I used the slideDown animation for the class .name. The animation is implemented in section <a href="home.html">Home</a> and <a href="animations.html">Animations</a>.<br></li>
+            <li class="animation-list-content">I used the slideUp animation for the class .university, .description and .button. The animation is implemented in section <a href="home.html">Home</a>, <a href="about.html">About</a> and <a href="timetable.html">My Timetable</a>.<br></li>
+            <li class="animation-list-content">I used the fillUp animation for the class .hr. The animation is implemented in section <a href="home.html">Home</a> and <a href="timetable.html">My Timetable</a>.<br></li>
+        </ol>
+    </p>
+    <p class="animation-implementation">The codes for these animations are as follow:</p>
+    <p><br></p><img src="images/animation-code-slideDown.png" alt="slideDown code" class="is-semi-rounded" id="code-slideDown">
+    <p><br></p><img src="images/animation-code-slideUp.png" alt="slideUp code" class="is-semi-rounded" id="code-slideUp">
+    <p><br></p><img src="images/animation-code-fillUp.png" alt="fillUp" class="is-semi-rounded" id="code-fillUp">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+</body>
+
+</html>

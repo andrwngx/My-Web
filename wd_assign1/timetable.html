@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nguyen Vu Duy Minh's Timetable">
+    <meta name="author" content="Nguyen Vu Duy Minh">
+    <title>Andrew's Assignment 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500" rel="stylesheet">
+    <link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:1025px)">
+    <link href="style/mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-transparent is-fixed-top">
+      <div class="navbar-brand"><a href="home.html" class="navbar-item navbar-logo"><img src="images/andrw-logo.png" alt="Logo" id="my-logo"></a>
+          <div data-target="navbarExampleTransparentExample" class="navbar-burger"><span></span><span></span><span></span></div>
+      </div>
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+          </div>
+          <div class="navbar-end"><a href="home.html" class="navbar-item has-text-dark">Home</a><a href="about.html" class="navbar-item has-text-dark">About</a><a href="animations.html" class="navbar-item has-text-dark">Animations</a>
+            <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control"><a href="timetable.html" class="bd-tw-button button">My Timetable<br></a></p>
+                        <p class="control"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Picture + Major -->
+    <div class="columns is-centered">
+        <div class="column is-6 p-3">
+            <div class="box has-text-centered is-shadowless">
+                <figure class="image is-responsive is-fit"></figure>
+                <div class="tile mt-5 pt-5 is-child pink card-bio">
+                    <p><br></p><img src="images/swinburne-futureverse.JPG" alt="My Picture At Swinburne Futureverse" class="is-semi-rounded">
+                    <h2 id="home-title" class="name">My Timetable At Swinburne University of Technology<br></h2>
+                    <p id="home-university" class="job">ICT Major - Software Technology<br>October 2022</p>
+                    <hr class="hr mx-auto has-text-centered">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Timetable -->
+    <div class="time-table-div">
+        <table id="time-table">
+            <label id="time-table-title">MY TIMETABLE</label>
+            <thead id="time-table-head">
+              <tr>
+                <th class="time-table-header"></th>
+                <th class="time-table-header">7:30-8:30</th>
+                <th class="time-table-header">8:30-9:30</th>
+                <th class="time-table-header">9:30-10:30</th>
+                <th class="time-table-header">10:30-11:30</th>
+                <th class="time-table-header">13:00-14:00</th>
+                <th class="time-table-header">14:00-15:00</th>
+                <th class="time-table-header">15:00-16:00</th>
+                <th class="time-table-header">16:00-17:00</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="time-table-day">Monday</td> <!--Day-->
+                <td class="time-table-data">Global Citizen</td> <!--7:30-8:30-->
+                <td class="time-table-data">Global Citizen</td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data"></td> <!--13:00-14:00-->
+                <td class="time-table-data"></td> <!--14:00-15:00-->
+                <td class="time-table-data"></td> <!--15:00-16:00-->
+                <td class="time-table-data"></td> <!--16:00-17:00-->
+              </tr>
+              <tr>
+                <td class="time-table-day">Tuesday</td> <!--Day-->
+                <td class="time-table-data">Global Citizen</td> <!--7:30-8:30-->
+                <td class="time-table-data">Global Citizen</td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data"></td> <!--13:00-14:00-->
+                <td class="time-table-data"></td> <!--14:00-15:00-->
+                <td class="time-table-data"></td> <!--15:00-16:00-->
+                <td class="time-table-data"></td> <!--16:00-17:00-->
+              </tr>
+              <tr>
+                <td class="time-table-day">Wednesday</td> <!--Day-->
+                <td class="time-table-data">Global Citizen</td> <!--7:30-8:30-->
+                <td class="time-table-data">Global Citizen</td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data"></td> <!--13:00-14:00-->
+                <td class="time-table-data">Web Development</td> <!--14:00-15:00-->
+                <td class="time-table-data">Web Development</td> <!--15:00-16:00-->
+                <td class="time-table-data">Web Development</td> <!--16:00-17:00-->
+              </tr>
+              <tr>
+                <td class="time-table-day">Thursday</td> <!--Day-->
+                <td class="time-table-data"></td> <!--7:30-8:30-->
+                <td class="time-table-data"></td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data"></td> <!--13:00-14:00-->
+                <td class="time-table-data"></td> <!--14:00-15:00-->
+                <td class="time-table-data"></td> <!--15:00-16:00-->
+                <td class="time-table-data"></td> <!--16:00-17:00-->
+              </tr>
+              <tr>
+                <td class="time-table-day">Friday</td> <!--Day-->
+                <td class="time-table-data"></td> <!--7:30-8:30-->
+                <td class="time-table-data"></td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data">Introduction to Programming</td> <!--13:00-14:00-->
+                <td class="time-table-data">Introduction to Programming</td> <!--14:00-15:00-->
+                <td class="time-table-data">Introduction to Programming</td> <!--15:00-16:00-->
+                <td class="time-table-data">Introduction to Programming</td> <!--16:00-17:00-->
+              </tr>
+              <tr>
+                <td class="time-table-day">Saturday</td> <!--Day-->
+                <td class="time-table-data"></td> <!--7:30-8:30-->
+                <td class="time-table-data"></td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data"></td> <!--13:00-14:00-->
+                <td class="time-table-data"></td> <!--14:00-15:00-->
+                <td class="time-table-data"></td> <!--15:00-16:00-->
+                <td class="time-table-data"></td> <!--16:00-17:00-->
+              </tr>
+              <tr>
+                <td class="time-table-day">Sunday</td> <!--Day-->
+                <td class="time-table-data"></td> <!--7:30-8:30-->
+                <td class="time-table-data"></td> <!--8:30-9:30-->
+                <td class="time-table-data"></td> <!--9:30-10:30-->
+                <td class="time-table-data"></td> <!--10:30-11:30-->
+                <td class="time-table-data"></td> <!--13:00-14:00-->
+                <td class="time-table-data"></td> <!--14:00-15:00-->
+                <td class="time-table-data"></td> <!--15:00-16:00-->
+                <td class="time-table-data"></td> <!--16:00-17:00-->
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="columns"></div>
+  <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
